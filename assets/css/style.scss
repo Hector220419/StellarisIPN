@@ -9,13 +9,12 @@ body{
     background-size: cover;
   }
 
-  .team-area{
+  #team-area{
     padding-top: 5%;
   }
   .single-team{
     background-color: #000;
     margin-bottom: 10px;
-
     &:hover{
         .social{
             cursor: pointer;
@@ -90,6 +89,24 @@ body{
         text-transform: uppercase;
         font-weight: bold;
       }
+  }
+
+  /////////////////////////////////////////////////////////
+
+  #Mission{
+    p{
+      color: #fff;
+      text-align: justify;
+    }
+    .misionText{
+      align-self: stretch;
+      background-color: #000;
+      font-family: roboto;
+    }
+    .titleMision{
+      font-size: 5em;
+      font-family: impact;
+    }
   }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -194,9 +211,76 @@ carousel-caption {
 		font-size: 40px;
 		letter-spacing: 0;
 	}
-}
-@media only screen and (max-width: 767px) {
+    .navbar-header{
+        img{
+            height: 5em;
+            position: absolute;
+            left: 10%;
+            margin-left: -4em; /* Ajusta este valor al ancho de tu logo */
+            margin-top: -1em; /* Ajusta este valor al ancho de tu logo */
+            display: block;
+        }
+    }
 
+    .single-team{
+        background-color: #000;
+        margin-bottom: 10px;
+    
+        &:hover{
+            .social{
+                cursor: pointer;
+                opacity: 1;
+                transform: rotateY(0deg) scale(1, 1);
+              }
+        }
+    
+      }
+      .img-area{
+        overflow: hidden;
+        position: relative;
+        height: 25em;
+        .img{
+            width: 500%;
+          }
+        &:hover{
+            img{
+                transform: scale(1.2)
+              }
+        }
+    
+        .social{    
+            ul{
+                text-align: center;
+                position: relative;
+                top: 200px;
+    
+                li a{
+                    border: 1px solid #fff;
+                    color: #fff;
+                    display: block;
+                    font-size: 20px;
+                    height: 40px;
+                    width: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    &:hover{
+                        background-color: #fff;
+                        color: #000;
+                        border: 1px solid transparent;
+                        }
+                  }
+              }
+          }
+      }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-header{
+    height: 200px;
+  }
+  #carruselLink{
+    height: 200px;
+  }
 	.carousel-caption p {
 		font-size: 12px;
 		width: 95%;

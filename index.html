@@ -3,10 +3,11 @@
 <!--divinectorweb.com-->
 <head>
     <meta charset="UTF-8">
-    <title>Team Section design using Bootstrap</title>
+    <title>Stellaris IPN</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
         <!-- Navbar-->
@@ -26,9 +27,9 @@
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li class="smooth-menu"><a href="#APRS">APRS</a></li>
+                            <li class="smooth-menu"><a href="#carruselLink">APRS</a></li>
                             <li class="smooth-menu"><a href="#Mission">Mission</a></li>
-			                <li class="smooth-menu"><a href="#AboutUs">About Us</a></li>
+			                <li class="smooth-menu"><a href="#team-area"">About Us</a></li>
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
 			        </div><!--/.container-->
@@ -39,91 +40,104 @@
 		</header><!-- /.top-area-->
 
  <!-------------------------------------- Carrusel---------------------------------->
-    
-        <div class="myslide carousel slide" id="carousel-example-generic" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="item active"> 
-                  <img src="assets/img/carrusel_2.jpg" alt="">
-                  <div class="carousel-caption">
-                    <h2>Digital Photography</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut pariatur deserunt eaque unde quia praesentium.</p>
-                    <a href="#">Learn More</a>
-                    </div>
-              </div>
-                <div class="item">
-                  <img src="assets/img/carrusel_3.jpg" alt="">
-                  <div class="carousel-caption">
-                    <h2>Digital Photography</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut pariatur deserunt eaque unde quia praesentium.</p>
-                    <a href="#">Learn More</a>
-                    </div>
-                   </div>
-                <div class="item">
-                 <img src="assets/img/carrusel_4.jpg" alt="">
-                 <div class="carousel-caption">
-                    <h2>Digital Photography</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut pariatur deserunt eaque unde quia praesentium.</p>
-                    <a href="#">Learn More</a>
-                    </div> 
+        <div id="carruselLink">
+
+
+            <div class="myslide carousel slide" id="carousel-example-generic" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active"> 
+                      <img src="assets/img/carrusel/carrusel_2.jpg" alt="">
+                      <div class="carousel-caption">
+                        <h2>APRS</h2>
+                        <p>APRS enables the transmission of real-time information such as position tracking, weather reports, messages, and other telemetry data over a network of amateur radio stations.</p>
+                        </div>
                   </div>
-            </div>
-            
-        </div>        
+                    <div class="item">
+                      <img src="assets/img/carrusel/carrusel_5.jpg" alt="">
+                      <div class="carousel-caption">
+                        <h2>Stellaris IPN</h2>
+                        <p>We are a Mexican team committed to improving the country's aerospace industry, demonstrating that we are at the level of other universities in the world.</p>
+                        </div>
+                       </div>
+                    <div class="item">
+                     <img src="assets/img/carrusel/carrusel_4.jpg" alt="">
+                     <div class="carousel-caption">
+                        <h2>BIRDS-X SATELLITE PROJECT</h2>
+                        <p>The BIRDS-X satellite project is a collaborative effort between three universities: the Kyushu Institute of Technology in Japan, the Bhutanese Royal University of Bhutan, and the Philippine's Tohoku University. The project's main objective is to provide a platform for capacity building in the field of space technology and space science in developing countries.</p>
+                        </div> 
+                      </div>
+                </div>
+                
+            </div>        
+
+        </div>
+
+    <!--MISION DEFINITION -->
+    <div id="Mission">
+        <div class="container">
+            <p class="titleMision">Mission</p>
+            <p class="misionText">The objective of this project is to design, develop and manufacture an APRS payload for a two unit (2U) CubeSat nanosatellite for the competition organized by Kyutech. that can store and resend AX.25 format APRS packets.
+                The payload mission will focus on the use of sensors for atmospheric measurements related to space weather and its effects on nanosatellites. One of the proposed sensors is a magnetometer located on the board that collects information on fluctuations in the Earth's magnetic field. These data will be sent to Earth to be correlated with solar activity data gathered from ground observations, thus determining a solar storm.
+                The team uses agile work methodologies for the assignment and fulfillment of tasks, using a systematic approach from the selection of components, design, manufacturing and individual tests to validate the behavior of each component within the proposed parameters. 
+                In addition, the selection of components and their position within the board will respect at all times the requirements requested in the ICD provided by the competition; emphasizing the weight, dimensions, communication protocol, nominal voltage, power, current consumption, independence of the APRS and short circuit protection system. The data processing algorithm and the interface will be executed within a secure environment, validating the data sending format, storage and reception.
+                Finally, the integration of the complete system and the corresponding tests will be carried out, validating that everything is in good condition before sending the engineering model and the flight model to Kyutech for review.
+            </p>
+        </div>
+    </div>
 
     <!-------------------------------------- Tarjetas---------------------------------->
 
-    <div class="team-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-team">
-                        <div class="img-area">
-                            <img src="assets/img/1.jpeg" class="img-responsive" alt="">
-                        <div class="social">
-                            <ul class="list-inline">
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="img-text">
-                        <h4>Leonardo Zuñiga</h4>
-                        <h5>C&DH Member</h5>
-                    </div>
-                </div>
-            </div>
-
+    <div id="team-area">
+        <div class="container">   
             <!--------------------------------------------------------------------------------->
-
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-team">
                         <div class="img-area">
-                            <img src="assets/img/2.jpg" class="img-responsive" alt="">
+                            <img src="./assets/img/integrantes/Andres.jpg" class="img-responsive" alt="">
                         <div class="social">
                             <ul class="list-inline">
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/andres040400/"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="img-text">
-                        <h4>Andres Rivera</h4>
+                        <h4>ANDRES RIVERA</h4>
                         <h5>EPS Member</h5>
                     </div>
                 </div>
             </div>
 
             <!--------------------------------------------------------------------------------->
-
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-team">
                         <div class="img-area">
-                            <img src="assets/img/3.jpg" class="img-responsive" alt="">
+                            <img src="./assets/img/integrantes/Hector.jpg" class="img-responsive" alt="">
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li><a href="https://www.linkedin.com/in/hector220419/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-text">
+                        <h4>HECTOR GALLARDO</h4>
+                        <h5>MANAGEMENT Member</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="./assets/img/integrantes/Leonardo.jpg" class="img-responsive" alt="">
                         <div class="social">
                             <ul class="list-inline">
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -131,16 +145,130 @@
                         </div>
                     </div>
                     <div class="img-text">
-                        <h4>Kenneth Aaron</h4>
+                        <h4>LEONARDO LEYVA</h4>
                         <h5>C&DH Member</h5>
                     </div>
                 </div>
             </div>
 
+            <!--------------------------------------------------------------------------------->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="./assets/img/integrantes/Salvador.jpg" class="img-responsive" alt="">
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li><a href="https://www.linkedin.com/in/salvador-s%C3%A1nchez-catarino-9100b5212/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-text">
+                        <h4>SALVADOR SANCHEZ</h4>
+                        <h5>C&DH Member</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="./assets/img/integrantes/Manuel.jpg" class="img-responsive" alt="">
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li><a href="https://www.linkedin.com/in/manuel-olivares-d%C3%ADaz-76a652239/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-text">
+                        <h4>MANUEL OLIVARES</h4>
+                        <h5>EPS Member</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="./assets/img/integrantes/Eduardo.jpg" class="img-responsive" alt="">
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li><a href="https://www.linkedin.com/in/eduardoortegaalvarez/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-text">
+                        <h4>EDUARDO ORTEGA</h4>
+                        <h5>MANAGEMENT Member</h5>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------------------------------------------------------------->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="./assets/img/integrantes/Zuheily.jpg" class="img-responsive" alt="">
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-text">
+                        <h4>ZUHEILY RUIZ</h4>
+                        <h5>C&DH Member</h5>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------------------------------------------------------------->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="./assets/img/integrantes/Cesar.jpg" class="img-responsive" alt="">
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li><a href="https://www.linkedin.com/in/cesar-rodr%C3%ADguez-angeles-72b753248"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-text">
+                        <h4>CESAR RODRIGUEZ</h4>
+                        <h5>C&DH Member</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="./assets/img/integrantes/VLeo.jpeg" class="img-responsive" alt="">
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-text">
+                        <h4>VICTOR RODRIGUEZ</h4>
+                        <h5>C&DH Member</h5>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 
     <!-- Bootstrap Script-->
+    <!-- <script src="./assets/js/app.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

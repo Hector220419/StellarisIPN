@@ -1,0 +1,47 @@
+[  
+    {
+        "nombre": "ANDRES RIVERA",
+        "seccion": "EPS MEMBER",
+        "img": "./assets/img/integrantes/Andres.jpg"
+    },
+    {
+        "nombre": "HECTOR GALLARDO",
+        "seccion": "MANAGEMENT MEMBER",
+        "img": "./assets/img/integrantes/Hector.jpeg"
+    },
+    {
+        "nombre": "LEONARDO LEYVA",
+        "seccion": "C&DH MEMBER",
+        "img": "./assets/img/integrantes/Leonardo.jpeg"
+    },
+    {
+        "nombre": "SALVADOR SANCHEZ",
+        "seccion": "C&DH MEMBER",
+        "img": "./assets/img/integrantes/Salvador.jpg"
+    },
+    {
+        "nombre": "MANUEL OLIVARES",
+        "seccion": "EPS MEMBER",
+        "img": "./assets/img/integrantes/Manuel.jpeg"
+    },
+    {
+        "nombre": "EDUARDO ORTEGA",
+        "seccion": "MANAGEMENT MEMBER",
+        "img": "./assets/img/integrantes/Eduardo.jpeg"
+    },
+    {
+        "nombre": "ZUHEILY RUIZ",
+        "seccion": "C&DH MEMBER",
+        "img": "./assets/img/integrantes/Zuheily.jpeg"
+    },
+    {
+        "nombre": "CESAR RODRIGUEZ",
+        "seccion": "C&DH MEMBER",
+        "img": "./assets/img/integrantes/Cesar.jpeg"
+    },
+    {
+        "nombre": "VICTOR RODRIGUEZ",
+        "seccion": "C&DH MEMBER",
+        "img": "./assets/img/integrantes/VLeo.jpeg"
+    }
+]

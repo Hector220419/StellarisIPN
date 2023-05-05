@@ -8,7 +8,7 @@ body {
   background-size: cover;
 }
 
-.team-area {
+#team-area {
   padding-top: 5%;
 }
 
@@ -82,6 +82,20 @@ body {
   font-size: 17px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#Mission p {
+  color: #fff;
+  text-align: justify;
+}
+#Mission .misionText {
+  align-self: stretch;
+  background-color: #000;
+  font-family: roboto;
+}
+#Mission .titleMision {
+  font-size: 5em;
+  font-family: impact;
 }
 
 .navbar-header img {
@@ -199,8 +213,62 @@ carousel-caption {
     font-size: 40px;
     letter-spacing: 0;
   }
+  .navbar-header img {
+    height: 5em;
+    position: absolute;
+    left: 10%;
+    margin-left: -4em; /* Ajusta este valor al ancho de tu logo */
+    margin-top: -1em; /* Ajusta este valor al ancho de tu logo */
+    display: block;
+  }
+  .single-team {
+    background-color: #000;
+    margin-bottom: 10px;
+  }
+  .single-team:hover .social {
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+  }
+  .img-area {
+    overflow: hidden;
+    position: relative;
+    height: 25em;
+  }
+  .img-area .img {
+    width: 500%;
+  }
+  .img-area:hover img {
+    transform: scale(1.2);
+  }
+  .img-area .social ul {
+    text-align: center;
+    position: relative;
+    top: 200px;
+  }
+  .img-area .social ul li a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .img-area .social ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+  }
 }
 @media only screen and (max-width: 767px) {
+  .navbar-header {
+    height: 200px;
+  }
+  #carruselLink {
+    height: 200px;
+  }
   .carousel-caption p {
     font-size: 12px;
     width: 95%;

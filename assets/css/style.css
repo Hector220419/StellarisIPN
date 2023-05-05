@@ -206,6 +206,13 @@ carousel-caption {
 }
 
 @media only screen and (max-width: 991px) {
+  #Mission .misionText {
+    font-size: 2em;
+  }
+  #Mission .titleMision {
+    font-size: 5em;
+    font-family: impact;
+  }
   .navbar-nav {
     padding: 3em;
   }

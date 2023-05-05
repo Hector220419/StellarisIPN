@@ -206,6 +206,12 @@ carousel-caption {
 }
 
 @media only screen and (max-width: 991px) {
+  .navbar-nav {
+    padding: 3em;
+  }
+  .navbar-nav li a {
+    font-size: 35px;
+  }
   .carousel-caption {
     padding-bottom: 340px;
   }
@@ -213,8 +219,13 @@ carousel-caption {
     font-size: 40px;
     letter-spacing: 0;
   }
+  .navbar-header {
+    height: 10em;
+    align-items: center;
+    align-content: center;
+  }
   .navbar-header img {
-    height: 5em;
+    height: 8em;
     position: absolute;
     left: 10%;
     margin-left: -4em; /* Ajusta este valor al ancho de tu logo */
@@ -263,12 +274,6 @@ carousel-caption {
   }
 }
 @media only screen and (max-width: 767px) {
-  .navbar-header {
-    height: 200px;
-  }
-  #carruselLink {
-    height: 200px;
-  }
   .carousel-caption p {
     font-size: 12px;
     width: 95%;
